@@ -1,11 +1,15 @@
-import React from "react";
-import "./style.css";
+import AllPost from './AllPost';
+import Button from '@material-ui/core/Button';
+import React from 'react';
 
-export default function App() {
+function App() {
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
-    </div>
+    <main>
+      <h1>Dashboard</h1>
+      {/* <Button>Add Post</Button> */}
+      <AllPost />
+    </main>
   );
 }
+
+export default App;
